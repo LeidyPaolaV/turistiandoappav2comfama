@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turistiandov2 </string>
+    <string name="resenahoteles">
+           Questo hotel dispone di una piscina all aperto ed è situato in una zona tranquilla di Santa Marta,
+        a soli 3 km dall'aeroporto Simón Bolívar ea 8 km dalla spiaggia di El Rodadero.
+</string>
+    <string name="resenaRestaurantes">
+
+In questo ristorante magico troverai una varietà di sapori che faranno esplodere il tuo palato di sapori, noi abbiamo
+        piatti da 13.900 per te e tutta la tua famiglia.
+    </string>
+    <string name="resenaSitiosTuristicos">
+        Abbiamo paesaggi da sogno, dove puoi guardare il tramonto e creare momenti meravigliosi con i tuoi cari.
+    </string>
+    <string name="opcion1">ingles</string>
+    <string name="opcion2">español</string>
+    <string name="opcion3">acerca de</string>
+</resources>

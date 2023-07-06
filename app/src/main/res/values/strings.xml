@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Turistiandov2</string>
+    <string name="app_name">Turistiandov2 </string>
+    <string name="resenahoteles">
+            Este hotel tiene piscina al aire libre y está situado en una zona tranquila de Santa Marta,
+        a solo 3 km del aeropuerto Simón Bolívar y a 8 km de la playa de El Rodadero.
+</string>
+    <string name="resenaRestaurantes">
+       En este magico restaurante encontraras una variedad de sabores que haran que tu paladar tenga una explosion de sabores, contamos con
+        platos desde 13.900 para ti y toda tu familia.
+    </string>
+    <string name="resenaSitiosTuristicos">
+        Contamos con paisajes de ensueños, donde puedes ver el atardecer y ser crear momentos maravillosos junto a los tuyos.
+    </string>
+    <string name="opcion1">ingles</string>
+    <string name="opcion2">español</string>
+    <string name="opcion3">acerca de</string>
 </resources>
+
