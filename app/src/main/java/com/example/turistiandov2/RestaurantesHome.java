@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SitiosTuristicosHome extends AppCompatActivity {
+public class RestaurantesHome extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sitios_turisticos_home);
+        setContentView(R.layout.activity_restaurantes_home);
     }
 }

@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Turistiandov2"
         tools:targetApi="31" >
         <activity
-            android:name=".SitiosTuristicosHome"
+            android:name=".RestaurantesHome"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
@@ -28,9 +28,6 @@
         <activity
             android:name=".HotelesHome"
             android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
         </activity>
         <activity
             android:name=".Home"

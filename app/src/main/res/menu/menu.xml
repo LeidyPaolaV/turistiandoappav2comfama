@@ -10,7 +10,11 @@
         />
     <item
         android:id="@+id/opcion3"
-        android:title="@string/opcion3"
+        android:title="Italiano"
         />
+    <item
+        android:id="@+id/opcion4"
+        android:title="Acerca de" />
+
 
 </menu>
