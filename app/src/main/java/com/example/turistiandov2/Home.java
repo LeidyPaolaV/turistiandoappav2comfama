@@ -31,7 +31,7 @@ public class Home extends AppCompatActivity {
         botonHoteles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "hice click", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Home.this, "Ver mas", Toast.LENGTH_SHORT).show();
             }
         });
     }

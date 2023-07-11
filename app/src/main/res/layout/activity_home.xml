@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/rosybrown"
+    android:background="@drawable/boton"
     tools:context=".Home">
 
     <ImageView
         android:id="@+id/logo"
-        android:src="@drawable/hotel"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="145dp"
+        android:layout_height="134dp"
+        android:src="@drawable/casa"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546" />
+
     <TextView
         android:id="@+id/titulo"
         app:layout_constraintTop_toBottomOf="@id/logo"
@@ -24,6 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="VALLE ENCANTADO"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="22dp"
         app:layout_constraintVertical_bias="0.05"
@@ -40,16 +42,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintVertical_bias="0.1"
         app:backgroundTint="@null"
         android:background="@drawable/custom_button"
-        app:cornerRadius="20dp"/>
+        app:cornerRadius="30dp" />
 
     <Button
         android:id="@+id/botonrestaurantes"
         app:backgroundTint="@null"
         android:background="@drawable/custom_button"
-        app:cornerRadius="20dp"
+        app:cornerRadius="30dp"
         android:text="RESTAURANTES"
         android:layout_marginHorizontal="30dp"
         android:layout_width="match_parent"
@@ -64,7 +66,7 @@
         android:id="@+id/botonsitios"
         app:backgroundTint="@null"
         android:background="@drawable/custom_button"
-        app:cornerRadius="20dp"
+        app:cornerRadius="30dp"
         android:text="SITIOS TURISTICOS"
         android:layout_marginHorizontal="30dp"
         android:layout_width="match_parent"

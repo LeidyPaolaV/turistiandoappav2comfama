@@ -11,14 +11,14 @@ import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
 
-    MediaPlayer audio;
+    MediaPlayer audioo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        audio=MediaPlayer.create(this,R.raw.audio);
-        audio.start();
+        audioo=MediaPlayer.create(this,R.raw.audio);
+        audioo.start();
 
         TimerTask inicio=new TimerTask() {
             @Override
@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         Timer tiempo=new Timer();
-        tiempo.schedule(inicio, 10000);
+        tiempo.schedule(inicio, 8000);
     }
 }
